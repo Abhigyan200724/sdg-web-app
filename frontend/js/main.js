@@ -1,0 +1,1 @@
+console.log("SDG Portal Loaded Successfully");
