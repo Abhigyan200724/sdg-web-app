@@ -1,5 +1,5 @@
 const API =
-"http://localhost:5000/api/auth";
+"https://sdg-web-app.onrender.com/api/auth";
 
 
 // REGISTER
@@ -28,7 +28,7 @@ document.getElementById("password").value
 
 const response =
 await fetch(
-`http://localhost:5000/api/auth/register`,
+`https://sdg-web-app.onrender.com/api/auth/register`,
 {
 method:"POST",
 headers:{
@@ -74,7 +74,7 @@ document.getElementById("password").value
 
 const response =
 await fetch(
-`http://localhost:5000/api/auth/login`,
+`https://sdg-web-app.onrender.com/api/auth/login`,
 {
 method:"POST",
 headers:{
