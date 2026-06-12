@@ -11,6 +11,6 @@ require("../controllers/authController");
 
 router.post("/register",registerUser);
 
-router.post("/login",loginUser);
+router.post("/api/auth/login",loginUser);
 
 module.exports = router;
