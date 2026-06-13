@@ -30,7 +30,7 @@ const response =
 await fetch(
 `https://sdg-web-app.onrender.com/api/auth/register`,
 {
-method:"POST", mode:"cors",
+method:"POST", mode:"cors", credentials: 'include',
 headers:{
 "Content-Type":"application/json"
 },
